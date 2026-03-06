@@ -1,0 +1,191 @@
+{
+  "constants": {
+    "a_floor": {
+      "components": {
+        "a_floor_raw": 1.019
+      },
+      "formula": "a_floor_raw",
+      "normalized_value": 1.019,
+      "notes": "Strict algebraicity barrier.",
+      "raw_value": 1.019,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/HODGE_CONJECTURE_PREPRINT.md Appendix E",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "alpha_alg": {
+      "components": {
+        "alpha_alg_raw": 1.041
+      },
+      "formula": "alpha_alg_raw",
+      "normalized_value": 1.041,
+      "notes": "Algebraicity lock strength.",
+      "raw_value": 1.041,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/HODGE_CONJECTURE_PREPRINT.md Appendix E",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "eps_coh": {
+      "components": {
+        "eps_coh_raw": 0.0
+      },
+      "formula": "eps_coh_raw",
+      "normalized_value": 0.0,
+      "notes": "Strict coherence target.",
+      "raw_value": 0.0,
+      "reference": 1.0,
+      "required_nonnegative": true,
+      "required_positive": false,
+      "source_section": "paper/HODGE_CONJECTURE_PREPRINT.md Appendix E",
+      "status": "derived_numeric",
+      "strict_zero": true,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "kappa_compact": {
+      "components": {
+        "delta_comp_sup_raw": 0.236
+      },
+      "formula": "1.0 / (1.0 + delta_comp_sup_raw)",
+      "normalized_value": 0.8090614886731392,
+      "notes": "Compactness modulus from supremum defect.",
+      "raw_value": 0.8090614886731392,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/HODGE_CONJECTURE_PREPRINT.md Appendix C",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "kappa_hodge": {
+      "components": {
+        "A_ker_raw": 0.912,
+        "c_star_raw": 1.47,
+        "e_star_raw": 0.238
+      },
+      "formula": "c_star_raw * A_ker_raw - e_star_raw",
+      "normalized_value": 1.10264,
+      "notes": "Projected Hodge coercivity floor.",
+      "raw_value": 1.10264,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/HODGE_CONJECTURE_PREPRINT.md Appendix A",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "rho_rigidity": {
+      "components": {
+        "rho_rigidity_raw": 1.088
+      },
+      "formula": "rho_rigidity_raw",
+      "normalized_value": 1.088,
+      "notes": "Rigidity exclusion floor.",
+      "raw_value": 1.088,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/HODGE_CONJECTURE_PREPRINT.md Appendix D",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "sigma_capture": {
+      "components": {
+        "flow_loss_raw": 0.171,
+        "jump_loss_raw": 0.143,
+        "sigma_floor_raw": 1.39
+      },
+      "formula": "sigma_floor_raw - flow_loss_raw - jump_loss_raw",
+      "normalized_value": 1.0759999999999998,
+      "notes": "Capture floor from flow+jump budget.",
+      "raw_value": 1.0759999999999998,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/HODGE_CONJECTURE_PREPRINT.md Appendix B",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    }
+  },
+  "framework": "hodge_conjecture",
+  "generated_utc": "2026-03-06T02:15:51Z",
+  "inputs_path": "artifacts/constants_extraction_inputs.json",
+  "inputs_sha256": "79e9026debebc9ed46cb4bebead5a6bd991afe706f62c7bdf466cfd72d79d852",
+  "schema_version": "2026-03-05",
+  "stitch": {
+    "sigma_star_can": {
+      "components": {
+        "sigma_star_can_raw": 1.055
+      },
+      "formula": "sigma_star_can_raw",
+      "normalized_value": 1.055,
+      "notes": "Canonical stitch capture floor.",
+      "raw_value": 1.055,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/HODGE_CONJECTURE_PREPRINT.md Section 5 / stitch constants",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    }
+  }
+}
