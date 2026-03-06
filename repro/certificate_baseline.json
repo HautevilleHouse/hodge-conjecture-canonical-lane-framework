@@ -1,0 +1,81 @@
+{
+  "all_pass": true,
+  "all_pass_normalized": true,
+  "blockers": {
+    "H_G1": [],
+    "H_G2": [],
+    "H_G3": [],
+    "H_G4": [],
+    "H_G5": [],
+    "H_G6": [],
+    "H_GCoh": [],
+    "H_GM": []
+  },
+  "derived": {
+    "strict_coh_zero": true,
+    "strict_margin": 1.0
+  },
+  "gates": {
+    "H_G1": "PASS",
+    "H_G2": "PASS",
+    "H_G3": "PASS",
+    "H_G4": "PASS",
+    "H_G5": "PASS",
+    "H_G6": "PASS",
+    "H_GCoh": "PASS",
+    "H_GM": "PASS"
+  },
+  "inputs": {
+    "a_floor": 1.0,
+    "alpha_alg": 1.0,
+    "eps_coh": 0.0,
+    "kappa_compact": 1.0,
+    "kappa_hodge": 1.0,
+    "rho_rigidity": 1.0,
+    "sigma_capture": 1.0,
+    "sigma_star_can": 1.0
+  },
+  "lane": {
+    "active_lane": "manifold_constrained",
+    "canonical_theorem_lane": "manifold_constrained"
+  },
+  "meta": {
+    "computed_at_utc": "2026-03-05T17:40:52+00:00",
+    "framework": "hodge_conjecture"
+  },
+  "normalized": {
+    "blockers": {
+      "G1": [],
+      "G2": [],
+      "G3": [],
+      "G4": [],
+      "G5": [],
+      "G6": [],
+      "GCoh": [],
+      "GM": []
+    },
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS",
+      "G3": "PASS",
+      "G4": "PASS",
+      "G5": "PASS",
+      "G6": "PASS",
+      "GCoh": "PASS",
+      "GM": "PASS"
+    }
+  },
+  "schema": {
+    "g6_policy": "G6 is a standalone theorem gate in this framework",
+    "normalized_gate_keys": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "GCoh",
+      "GM"
+    ]
+  }
+}

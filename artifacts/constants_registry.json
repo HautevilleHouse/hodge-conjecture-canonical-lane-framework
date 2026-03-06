@@ -1,0 +1,61 @@
+{
+  "constants": {
+    "a_floor": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/HODGE_CONJECTURE_PREPRINT.md Appendix E; raw=1.019, ref=1.0, formula=a_floor_raw",
+      "source": "artifacts/constants_extracted.json#a_floor",
+      "source_section": "paper/HODGE_CONJECTURE_PREPRINT.md Appendix E",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.019
+    },
+    "alpha_alg": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/HODGE_CONJECTURE_PREPRINT.md Appendix E; raw=1.041, ref=1.0, formula=alpha_alg_raw",
+      "source": "artifacts/constants_extracted.json#alpha_alg",
+      "source_section": "paper/HODGE_CONJECTURE_PREPRINT.md Appendix E",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.041
+    },
+    "eps_coh": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/HODGE_CONJECTURE_PREPRINT.md Appendix E; raw=0.0, ref=1.0, formula=eps_coh_raw",
+      "source": "artifacts/constants_extracted.json#eps_coh",
+      "source_section": "paper/HODGE_CONJECTURE_PREPRINT.md Appendix E",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 0.0
+    },
+    "kappa_compact": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/HODGE_CONJECTURE_PREPRINT.md Appendix C; raw=0.8090614886731392, ref=1.0, formula=1.0 / (1.0 + delta_comp_sup_raw)",
+      "source": "artifacts/constants_extracted.json#kappa_compact",
+      "source_section": "paper/HODGE_CONJECTURE_PREPRINT.md Appendix C",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 0.8090614886731392
+    },
+    "kappa_hodge": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/HODGE_CONJECTURE_PREPRINT.md Appendix A; raw=1.10264, ref=1.0, formula=c_star_raw * A_ker_raw - e_star_raw",
+      "source": "artifacts/constants_extracted.json#kappa_hodge",
+      "source_section": "paper/HODGE_CONJECTURE_PREPRINT.md Appendix A",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.10264
+    },
+    "rho_rigidity": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/HODGE_CONJECTURE_PREPRINT.md Appendix D; raw=1.088, ref=1.0, formula=rho_rigidity_raw",
+      "source": "artifacts/constants_extracted.json#rho_rigidity",
+      "source_section": "paper/HODGE_CONJECTURE_PREPRINT.md Appendix D",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.088
+    },
+    "sigma_capture": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/HODGE_CONJECTURE_PREPRINT.md Appendix B; raw=1.0759999999999998, ref=1.0, formula=sigma_floor_raw - flow_loss_raw - jump_loss_raw",
+      "source": "artifacts/constants_extracted.json#sigma_capture",
+      "source_section": "paper/HODGE_CONJECTURE_PREPRINT.md Appendix B",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.0759999999999998
+    }
+  },
+  "updated_at_utc": "2026-03-06T02:15:52Z"
+}
